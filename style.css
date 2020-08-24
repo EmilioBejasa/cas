@@ -1,11 +1,126 @@
 /* CSS files add styling rules to your content */
 
-body {
+main {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+}
+body {
+  background-image: linear-gradient(
+        270deg,
+          rgba(255, 233, 0, 0.7),
+          rgba(0, 0, 255, 0.5)
+        );
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: green;
+}
+img {
+  height: 200px;
+  margin: 50px;
+}
+
+.jumbotron {
+  background-image: url("https://imgix.bustle.com/uploads/image/2020/4/1/050662cb-982d-4eb7-8866-d697980d9fe6-tft-set3-jhin-splash-art.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:600px;
+}
+.jumbotrontwo {
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:11550px;
+}
+.copy {
+  color:red;
+}
+h2 {
+  font-size:50px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.p {
+  font-family: Lucida Console;
+}
+.ap {
+  background-color:purple;
+  color:white;
+}
+.ad {
+  background-color:rgb(255,140,0);
+  color:black;
+}
+.as {
+  background-color:red;
+  color:black;
+}
+.hp {
+  background-color: green;
+  color:white;
+}
+.mana {
+  background-color:darkblue;
+  color:white;
+}
+.armor {
+  background-color:gray;
+  color:black;
+}
+.mr {
+  background-color:yellow;
+  color:black;
+}
+
+.one {
+  color: brown; 
+  /* supposed to be bronze */
+}
+.two {
+  color:rgb(72,72,72);
+}
+.three{
+  color:rgb(255,223,0);
+}
+.four {
+  color:white;
+  /*intended to be diamond/prismatic for the chase synergies in-game, but also true damage, as it is labeled as white in the damage bar*/
+}
+.imgone {
+  object-fit:cover;
+  object-position: 3% 0;
+  height:200px;
+  width:215px;
+}
+.imgtwo {
+  object-fit:cover;
+  object-position: 50% 0;
+  height:200px;
+  width:225px;
+}
+.imgthree {
+  object-fit:cover;
+  object-position: 50% 0;
+  height:250px;
+  width:300px;
+}
+.note {
+  font-family: Comic Sans MS, sans-serif;
+  color:lime;
+  background-color:black;
+}
+.class {
+  background-color: black;
+  object-fit:cover;
+  object-position: 50% 0;
+  height: 20px;
+  width: 20px;
+}
+.trait {
+  font-size:40px;
+  font-family: fangsong;
+  background-image: linear-gradient(
+        90deg,
+          rgba(255, 0, 0, 0.7),
+          rgba(0, 255, 0, 0.5)
+        );
 }
