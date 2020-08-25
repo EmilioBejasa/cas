@@ -16,15 +16,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+
     <title>Beginner's Guide to Teamfight Tactics in Set 3.5</title>
   </head>
   <body>
-    <h1>
-      Wanna learn how to play Teamfight Tactics?
-      <u>This is the site for you!</u>
-    </h1>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!--       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <ul>
           <li>
             <a href="tftabout.html"><u>About</u></a>
@@ -33,11 +30,51 @@
             <a href="tftbasics.html"><u>Basics</u></a>
           </li>
         </ul>
+      </nav> -->
+      <!--       Learn more: Navbar
+      https://getbootstrap.com/docs/4.5/components/navbar/#text -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Teamfight Tactics</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tftabout.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tftbasics.html">Basics</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <div class="jumbotron jumbotron-fluid">
+    <!--     Learn more: Jumbotron
+    https://getbootstrap.com/docs/4.5/components/jumbotron/ -->
+    <!--     <div class="jumbotron jumbotron-fluid">
       <div class="container"></div>
+    </div> -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Wanna learn how to play Teamfight Tactics?</h1>
+        <p class="three">This is the site for you!</p>
+      </div>
     </div>
+
     <footer>
       <div class="copy">&copy; 2020</div>
     </footer>
